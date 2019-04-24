@@ -2,6 +2,24 @@
   #FONTS
 \*------------------------------------*/
 
+@font-face {
+    font-family: Clear Sans;
+    font-weight: 200;
+    src: url(../fonts/ClearSans-Light-webfont.woff);
+}
+
+@font-face {
+    font-family: Clear Sans;
+    font-weight: 400;
+    src: url(../fonts/ClearSans-Regular-webfont.woff);
+}
+
+@font-face {
+    font-family: Clear Sans;
+    font-weight: 600;
+    src: url(../fonts/ClearSans-Medium-webfont.woff);
+}
+
 /*------------------------------------*\
   #GENERIC
 \*------------------------------------*/
@@ -19,6 +37,13 @@ html {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 32px;
+    font-family: "Clear sans", arial, sans-serif;
 }
 
 *,
